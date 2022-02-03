@@ -45,21 +45,27 @@
   </nav>
   
   <!-- TROISIEME ETAPE / UTILISER LA GRILLE BOOTSTRAP -->
-  <section style="background-image: url('https://believemy.com/uploads/f536b82491a5a3c07e60cf2b977ded35_03b49c2a70d5bf98d966a517f96cfb87.jpeg')">
+  <section class="text-center p-5 text-white" style="background-image: url('https://believemy.com/uploads/f536b82491a5a3c07e60cf2b977ded35_03b49c2a70d5bf98d966a517f96cfb87.jpeg')">
     <div class="container">
       <div>
         <div>
-          <h3>Inscriptions ouvertes<span>Année 2180-2181</span></h3>
+          <h3>Inscriptions ouvertes <br><span>Année 2180-2181</span></h3>
           
-          <div>
-            <button>
+          <div class="dropdown">
+            <button id="documents" class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
               Documents
             </button>
-            <div>
-              <a>Dossier d'inscription</a>
-              <a>Règlement intérieur</a>
-              <a>Documents concernant l'internat</a>
-            </div>
+            <ul class="dropdown-menu" aria-labelledby="#documents"> 
+              <li class="dropdown-item">
+                <a>Dossier d'inscription</a>
+              </li>
+              <li class="dropdown-item">
+                <a>Règlement intérieur</a>
+              </li>
+              <li class="dropdown-item">
+                <a>Documents concernant l'internat</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
